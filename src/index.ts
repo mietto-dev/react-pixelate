@@ -1,1 +1,1 @@
-export * from "./Pixelify";
+export * from "./pixelate/pixelate";
