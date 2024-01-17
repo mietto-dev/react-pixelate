@@ -1,5 +1,5 @@
 {
-  "name": "@debrief/pixelify",
+  "name": "react-pixelate",
   "version": "0.2.2",
   "description": "Typed and more flexible implementation of Niko Ferro's react-pixelify",
   "keywords": [
@@ -19,14 +19,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/nikoferro/react-pixelify.git"
+    "url": "git+https://github.com/mietto-dev/react-pixelate.git"
   },
-  "author": "Nicolas Ferro <nicolaspatricioferro@gmail.com> (https://github.com/nikoferro)",
+  "author": "Felipe Mietto <mietto.ti@gmail.com> (https://github.com/mietto-dev)",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/nikoferro/react-pixelify/issues"
+    "url": "https://github.com/mietto-dev/react-pixelate/issues"
   },
-  "homepage": "https://github.com/nikoferro/react-pixelify#readme",
+  "homepage": "https://github.com/mietto-dev/react-pixelate#readme",
   "devDependencies": {
     "@rollup/plugin-commonjs": "^25.0.7",
     "@rollup/plugin-node-resolve": "^15.2.3",
