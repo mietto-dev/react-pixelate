@@ -1,10 +1,10 @@
 import type { Meta, StoryObj } from "@storybook/react";
 import { Pixelate } from "../../src/pixelate/pixelate";
-import imageFile from "./image.jpg";
+import src from "./image.jpg";
 
 // More on how to set up stories at: https://storybook.js.org/docs/writing-stories#default-export
 const meta = {
-  title: "Pixelate Image",
+  title: "Pixelate Image (override)",
   component: Pixelate,
   parameters: {},
   argTypes: {},
@@ -14,6 +14,22 @@ export default meta;
 type Story = StoryObj<typeof meta>;
 
 // More on writing stories with args: https://storybook.js.org/docs/writing-stories/args
-export const Primary: Story = {
-  args: { src: imageFile },
+export const Normal: Story = {
+  args: { src },
+};
+
+export const WidthOnly: Story = {
+  args: { src, width: 500 },
+};
+
+export const HeightOnly: Story = {
+  args: { src, height: 500 },
+};
+
+export const WidthHeight: Story = {
+  args: { src, width: 300, height: 500 },
+};
+
+export const PixelSize: Story = {
+  args: { src, width: 300, height: 500, pixelSize: 5 },
 };
