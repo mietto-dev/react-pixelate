@@ -111,6 +111,8 @@ const Pixelate: React.FC<PixelateProps> = ({
     return width >= 600 ? 10 : width >= 400 ? 15 : width >= 200 ? 20 : 25;
   };
 
+  // convert this to <img src=canvas.toDataURL() /> so that we can chain SVG effects afterwards
+  // transfer image-filter logic here
   return <canvas ref={canvas} />;
 };
 

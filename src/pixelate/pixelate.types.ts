@@ -7,7 +7,7 @@
  * @interface
  */
 export interface PixelateProps {
-  src: string;
+  src?: string;
   width?: number;
   height?: number;
   pixelSize?: number;
